@@ -1,7 +1,7 @@
 {
   "author": "Sandeep Mistry <sandeep.mistry@gmail.com>",
   "license": "MIT",
-  "name": "noble",
+  "name": "@rfcode/rfc-noble",
   "description": "A Node.js BLE (Bluetooth Low Energy) central library.",
   "version": "1.7.0",
   "repository": {
@@ -32,7 +32,7 @@
     "debug": "~2.2.0"
   },
   "optionalDependencies": {
-    "bluetooth-hci-socket": "^0.5.1",
+    "@rfcode/rfc-bluetooth-hci-socket": "^0.5.2",
     "bplist-parser": "0.0.6",
     "xpc-connection": "~0.1.4"
   },
